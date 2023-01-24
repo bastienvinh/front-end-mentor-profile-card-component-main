@@ -1,4 +1,4 @@
-import './card.scss'
+import './Card.scss'
 
 import ImageVictor from "../images/image-victor.jpg"
 import Stats from './Stats'
