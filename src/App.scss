@@ -1,0 +1,27 @@
+.background-1 {
+  background-image: url('./images/bg-pattern-bottom.svg');
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 50%;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+.background-2 {
+  background-image: url('./images/bg-pattern-top.svg');
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 50%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1;
+  transform: rotate(180deg);
+}
+
+.card {
+  z-index: 2;
+}
+
